@@ -1,3 +1,6 @@
 [submodule "eg2310_rpi-hardware-scripts"]
 	path = eg2310_rpi-hardware-scripts
 	url = https://github.com/ikxm2101/eg2310_rpi-hardware-scripts.git
+[submodule "colcon-ws/src/auto_nav/auto_nav"]
+	path = colcon-ws/src/auto_nav/auto_nav
+	url = https://github.com/vivzzzzzz/r2auto_nav.git
