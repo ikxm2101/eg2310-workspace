@@ -1,0 +1,3 @@
+[submodule "eg2310_rpi-hardware-scripts"]
+	path = eg2310_rpi-hardware-scripts
+	url = https://github.com/ikxm2101/eg2310_rpi-hardware-scripts.git
