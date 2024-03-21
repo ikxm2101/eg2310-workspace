@@ -1,0 +1,3 @@
+[console_scripts]
+testbed = idkman.lidar_sole_servo_test:main
+

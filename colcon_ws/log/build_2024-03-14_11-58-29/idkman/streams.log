@@ -1,0 +1,24 @@
+[1.921s] Invoking command in '/home/ubuntu/eg2310-workspace/colcon_ws/src/idkman': PYTHONPATH=/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/idkman build --build-base /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build install --prefix /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman --record /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/install.log --single-version-externally-managed
+[3.005s] running egg_info
+[3.006s] writing ../../build/idkman/idkman.egg-info/PKG-INFO
+[3.035s] writing dependency_links to ../../build/idkman/idkman.egg-info/dependency_links.txt
+[3.036s] writing entry points to ../../build/idkman/idkman.egg-info/entry_points.txt
+[3.038s] writing requirements to ../../build/idkman/idkman.egg-info/requires.txt
+[3.039s] writing top-level names to ../../build/idkman/idkman.egg-info/top_level.txt
+[3.298s] reading manifest file '../../build/idkman/idkman.egg-info/SOURCES.txt'
+[3.303s] writing manifest file '../../build/idkman/idkman.egg-info/SOURCES.txt'
+[3.304s] running build
+[3.304s] running build_py
+[3.457s] copying idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build/lib/idkman
+[3.462s] running install
+[3.469s] running install_lib
+[3.478s] copying /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build/lib/idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman
+[3.483s] byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman/lidar_sole_servo_test.py to lidar_sole_servo_test.cpython-38.pyc
+[3.490s] running install_data
+[3.568s] running install_egg_info
+[3.580s] removing '/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman-0.0.0-py3.8.egg-info' (and everything under it)
+[3.582s] Copying ../../build/idkman/idkman.egg-info to /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman-0.0.0-py3.8.egg-info
+[3.590s] running install_scripts
+[3.682s] Installing testbed script to /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/idkman
+[3.685s] writing list of installed files to '/home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/install.log'
+[3.825s] Invoked command in '/home/ubuntu/eg2310-workspace/colcon_ws/src/idkman' returned '0': PYTHONPATH=/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/idkman build --build-base /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build install --prefix /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman --record /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/install.log --single-version-externally-managed

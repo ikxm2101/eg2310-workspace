@@ -13,13 +13,17 @@ import time
 import numpy as np
 
 from .servo_device import Servo_device
-from .solenoidsw_device import SolenoidSwitch_device
+#from .solenoidsw_device import SolenoidSwitch_device
 
-servo_pin = 12
-servo = Servo_device(servo_pin)
+servo_pin1 = 12
+servo1 = Servo_device(servo_pin1)
 
-solenoidsw_pin = 21
-solenoidsw = SolenoidSwitch_device(solenoidsw_pin)
+servo_pin2 = 13
+servo2 = Servo_device(servo_pin2)
+servo1.set_angle(180)
+servo2.reset()
+#solenoidsw_pin = 21
+#solenoidsw = SolenoidSwitch_device(solenoidsw_pin)
 
 
 class Scanner(Node):
@@ -33,7 +37,7 @@ class Scanner(Node):
     self.subscription  # prevent unused variable warning
     
     # Variables/flag to detect minimum distance
-    self.mindist = 0.3
+    self.mindist = 0.17
     self.mindist_detected = False
 
   def listener_callback(self, msg):
@@ -47,14 +51,21 @@ class Scanner(Node):
 
     if measured_mindist <= self.mindist and not self.mindist_detected:
       self.mindist_detected = True
-      servo.set_angle(45)
-      solenoidsw.on()
+      time.sleep(10)
+      servo1.set_angle(80)
+      servo2.set_angle(100)
+      time.sleep(10)
+     # solenoidsw.on()
       time.sleep(1)
-    
+      servo1.set_angle(180)
+      servo2.reset()
+      servo1.close()
+      servo2.close()
     if measured_mindist > self.mindist and self.mindist_detected:
       self.mindist_detected = False
-      servo.reset()
-      solenoidsw.off()
+     # servo1.set_angle(180)
+     # servo2.reset()
+      #solenoidsw.off()
       time.sleep(1)
 
 def main(args=None):
@@ -69,8 +80,12 @@ def main(args=None):
     scanner.destroy_node()
     rclpy.shutdown()
   except KeyboardInterrupt:
-    servo.close()
-    solenoidsw.close()
+    time.sleep(5)
+   # servo1.set_angle(180)
+   # servo2.set_angle(0)
+   # servo1.close()
+   # servo2.close()
+    #solenoidsw.close()
 
 if __name__ == '__main__':
   main()

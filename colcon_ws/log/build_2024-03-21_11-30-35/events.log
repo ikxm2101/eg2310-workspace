@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001071] (auto_nav) JobQueued: {'identifier': 'auto_nav', 'dependencies': OrderedDict()}
+[0.001435] (idkman) JobQueued: {'identifier': 'idkman', 'dependencies': OrderedDict()}
+[0.002287] (auto_nav) JobStarted: {'identifier': 'auto_nav'}
+[0.098852] (-) TimerEvent: {}
+[0.106951] (idkman) JobStarted: {'identifier': 'idkman'}
+[0.199175] (-) TimerEvent: {}
+[0.300494] (-) TimerEvent: {}
+[0.401252] (-) TimerEvent: {}
+[0.502192] (-) TimerEvent: {}
+[0.603064] (-) TimerEvent: {}
+[0.703730] (-) TimerEvent: {}
+[0.804406] (-) TimerEvent: {}
+[0.905132] (-) TimerEvent: {}
+[1.006058] (-) TimerEvent: {}
+[1.107295] (-) TimerEvent: {}
+[1.208777] (-) TimerEvent: {}
+[1.309610] (-) TimerEvent: {}
+[1.410443] (-) TimerEvent: {}
+[1.511272] (-) TimerEvent: {}
+[1.612875] (-) TimerEvent: {}
+[1.713569] (-) TimerEvent: {}
+[1.814339] (-) TimerEvent: {}
+[1.915977] (-) TimerEvent: {}
+[2.002993] (auto_nav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/auto_nav', 'build', '--build-base', '/home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/build', 'install', '--prefix', '/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav', '--record', '/home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/eg2310-workspace/colcon_ws/src/auto_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.188.102 64209 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/py_pubsub:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.188.102 64209 192.168.188.228 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[2.016687] (-) TimerEvent: {}
+[2.039033] (idkman) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/idkman', 'build', '--build-base', '/home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build', 'install', '--prefix', '/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman', '--record', '/home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/eg2310-workspace/colcon_ws/src/idkman', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.188.102 64209 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/py_pubsub:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/eg2310-workspace/colcon_ws/build/idkman', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.188.102 64209 192.168.188.228 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[2.116687] (-) TimerEvent: {}
+[2.219235] (-) TimerEvent: {}
+[2.320983] (-) TimerEvent: {}
+[2.422521] (-) TimerEvent: {}
+[2.523871] (-) TimerEvent: {}
+[2.624639] (-) TimerEvent: {}
+[2.726102] (-) TimerEvent: {}
+[2.827415] (-) TimerEvent: {}
+[2.928895] (-) TimerEvent: {}
+[3.028838] (idkman) StdoutLine: {'line': b'running egg_info\n'}
+[3.029648] (-) TimerEvent: {}
+[3.031228] (auto_nav) StdoutLine: {'line': b'running egg_info\n'}
+[3.032100] (auto_nav) StdoutLine: {'line': b'writing ../../build/auto_nav/auto_nav.egg-info/PKG-INFO\n'}
+[3.032490] (idkman) StdoutLine: {'line': b'writing ../../build/idkman/idkman.egg-info/PKG-INFO\n'}
+[3.034250] (idkman) StdoutLine: {'line': b'writing dependency_links to ../../build/idkman/idkman.egg-info/dependency_links.txt\n'}
+[3.035202] (auto_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/auto_nav/auto_nav.egg-info/dependency_links.txt\n'}
+[3.036390] (idkman) StdoutLine: {'line': b'writing entry points to ../../build/idkman/idkman.egg-info/entry_points.txt\n'}
+[3.037532] (idkman) StdoutLine: {'line': b'writing requirements to ../../build/idkman/idkman.egg-info/requires.txt\n'}
+[3.038148] (auto_nav) StdoutLine: {'line': b'writing entry points to ../../build/auto_nav/auto_nav.egg-info/entry_points.txt\n'}
+[3.038613] (idkman) StdoutLine: {'line': b'writing top-level names to ../../build/idkman/idkman.egg-info/top_level.txt\n'}
+[3.039008] (auto_nav) StdoutLine: {'line': b'writing requirements to ../../build/auto_nav/auto_nav.egg-info/requires.txt\n'}
+[3.039348] (auto_nav) StdoutLine: {'line': b'writing top-level names to ../../build/auto_nav/auto_nav.egg-info/top_level.txt\n'}
+[3.129888] (-) TimerEvent: {}
+[3.231376] (-) TimerEvent: {}
+[3.245041] (idkman) StdoutLine: {'line': b"reading manifest file '../../build/idkman/idkman.egg-info/SOURCES.txt'\n"}
+[3.246313] (auto_nav) StdoutLine: {'line': b"reading manifest file '../../build/auto_nav/auto_nav.egg-info/SOURCES.txt'\n"}
+[3.250753] (idkman) StdoutLine: {'line': b"writing manifest file '../../build/idkman/idkman.egg-info/SOURCES.txt'\n"}
+[3.251663] (idkman) StdoutLine: {'line': b'running build\n'}
+[3.252168] (idkman) StdoutLine: {'line': b'running build_py\n'}
+[3.252842] (auto_nav) StdoutLine: {'line': b"writing manifest file '../../build/auto_nav/auto_nav.egg-info/SOURCES.txt'\n"}
+[3.253507] (auto_nav) StdoutLine: {'line': b'running build\n'}
+[3.253964] (auto_nav) StdoutLine: {'line': b'running build_py\n'}
+[3.270907] (auto_nav) StdoutLine: {'line': b'running install\n'}
+[3.272387] (idkman) StdoutLine: {'line': b'copying idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build/lib/idkman\n'}
+[3.274157] (idkman) StdoutLine: {'line': b'running install\n'}
+[3.276575] (auto_nav) StdoutLine: {'line': b'running install_lib\n'}
+[3.277651] (idkman) StdoutLine: {'line': b'running install_lib\n'}
+[3.284816] (idkman) StdoutLine: {'line': b'copying /home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/build/lib/idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman\n'}
+[3.289667] (idkman) StdoutLine: {'line': b'byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman/lidar_sole_servo_test.py to lidar_sole_servo_test.cpython-38.pyc\n'}
+[3.292274] (auto_nav) StdoutLine: {'line': b'running install_data\n'}
+[3.296491] (idkman) StdoutLine: {'line': b'running install_data\n'}
+[3.302578] (auto_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.306622] (idkman) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.315210] (idkman) StdoutLine: {'line': b"removing '/home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.315836] (auto_nav) StdoutLine: {'line': b"removing '/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.316837] (idkman) StdoutLine: {'line': b'Copying ../../build/idkman/idkman.egg-info to /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman-0.0.0-py3.8.egg-info\n'}
+[3.318301] (auto_nav) StdoutLine: {'line': b'Copying ../../build/auto_nav/auto_nav.egg-info to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info\n'}
+[3.323100] (idkman) StdoutLine: {'line': b'running install_scripts\n'}
+[3.325252] (auto_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[3.331534] (-) TimerEvent: {}
+[3.414385] (auto_nav) StdoutLine: {'line': b'Installing r2auto_nav script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.415022] (idkman) StdoutLine: {'line': b'Installing testbed script to /home/ubuntu/eg2310-workspace/colcon_ws/install/idkman/lib/idkman\n'}
+[3.415578] (auto_nav) StdoutLine: {'line': b'Installing r2mover script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.416575] (auto_nav) StdoutLine: {'line': b'Installing r2moverotate script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.417777] (auto_nav) StdoutLine: {'line': b'Installing r2occupancy script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.418572] (idkman) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/eg2310-workspace/colcon_ws/build/idkman/install.log'\n"}
+[3.419700] (auto_nav) StdoutLine: {'line': b'Installing r2occupancy2 script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.421004] (auto_nav) StdoutLine: {'line': b'Installing r2scanner script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav\n'}
+[3.424135] (auto_nav) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/install.log'\n"}
+[3.432475] (-) TimerEvent: {}
+[3.536429] (-) TimerEvent: {}
+[3.560293] (idkman) CommandEnded: {'returncode': 0}
+[3.636486] (-) TimerEvent: {}
+[3.656068] (idkman) JobEnded: {'identifier': 'idkman', 'rc': 0}
+[3.663884] (auto_nav) CommandEnded: {'returncode': 0}
+[3.693767] (auto_nav) JobEnded: {'identifier': 'auto_nav', 'rc': 0}
+[3.696951] (-) EventReactorShutdown: {}

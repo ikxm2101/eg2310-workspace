@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/idkman/idkman.egg-info
+writing ../build/idkman/idkman.egg-info/PKG-INFO
+writing dependency_links to ../build/idkman/idkman.egg-info/dependency_links.txt
+writing entry points to ../build/idkman/idkman.egg-info/entry_points.txt
+writing requirements to ../build/idkman/idkman.egg-info/requires.txt
+writing top-level names to ../build/idkman/idkman.egg-info/top_level.txt
+writing manifest file '../build/idkman/idkman.egg-info/SOURCES.txt'
+reading manifest file '../build/idkman/idkman.egg-info/SOURCES.txt'
+writing manifest file '../build/idkman/idkman.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman
+copying idkman/__init__.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman
+copying idkman/servo_device.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman
+copying idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman
+copying idkman/solenoidsw_device.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman
+running install
+running install_lib
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman
+copying /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman/__init__.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman
+copying /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman/servo_device.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman
+copying /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman/lidar_sole_servo_test.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman
+copying /home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/build/lib/idkman/solenoidsw_device.py -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman
+byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman/servo_device.py to servo_device.cpython-38.pyc
+byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman/lidar_sole_servo_test.py to lidar_sole_servo_test.cpython-38.pyc
+byte-compiling /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman/solenoidsw_device.py to solenoidsw_device.cpython-38.pyc
+running install_data
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/share/ament_index
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/share/ament_index/resource_index
+creating /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/share/ament_index/resource_index/packages
+copying resource/idkman -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/share/idkman
+running install_egg_info
+Copying ../build/idkman/idkman.egg-info to /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/python3.8/site-packages/idkman-0.0.0-py3.8.egg-info
+running install_scripts
+Installing testbed script to /home/ubuntu/eg2310-workspace/colcon_ws/src/install/idkman/lib/idkman
+writing list of installed files to '/home/ubuntu/eg2310-workspace/colcon_ws/src/build/idkman/install.log'
