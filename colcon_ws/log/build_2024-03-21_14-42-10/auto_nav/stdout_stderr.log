@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing auto_nav.egg-info/PKG-INFO
+writing dependency_links to auto_nav.egg-info/dependency_links.txt
+writing entry points to auto_nav.egg-info/entry_points.txt
+writing requirements to auto_nav.egg-info/requires.txt
+writing top-level names to auto_nav.egg-info/top_level.txt
+package init file 'auto_nav/__init__.py' not found (or not a regular file)
+reading manifest file 'auto_nav.egg-info/SOURCES.txt'
+writing manifest file 'auto_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/site.py
+Creating /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/auto-nav.egg-link (link to .)
+Installing r2auto_nav script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+Installing r2mover script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+Installing r2moverotate script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+Installing r2occupancy script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+Installing r2occupancy2 script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+Installing r2scanner script to /home/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+
+Installed /home/eg2310-workspace/colcon_ws/build/auto_nav
+running install_data
+copying package.xml -> /home/eg2310-workspace/colcon_ws/install/auto_nav/share/auto_nav

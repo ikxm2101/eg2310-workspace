@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing idkman.egg-info/PKG-INFO
+writing dependency_links to idkman.egg-info/dependency_links.txt
+writing entry points to idkman.egg-info/entry_points.txt
+writing requirements to idkman.egg-info/requires.txt
+writing top-level names to idkman.egg-info/top_level.txt
+reading manifest file 'idkman.egg-info/SOURCES.txt'
+writing manifest file 'idkman.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eg2310-workspace/colcon_ws/install/idkman/lib/python3.8/site-packages/idkman.egg-link (link to .)
+Installing testbed script to /home/eg2310-workspace/colcon_ws/install/idkman/lib/idkman
+
+Installed /home/eg2310-workspace/colcon_ws/build/idkman
+running install_data

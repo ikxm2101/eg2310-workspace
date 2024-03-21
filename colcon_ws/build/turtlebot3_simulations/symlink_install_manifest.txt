@@ -1,0 +1,15 @@
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+/home/eg2310-workspace/colcon_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
