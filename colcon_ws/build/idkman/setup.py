@@ -1,1 +1,0 @@
-/home/eg2310-workspace/colcon_ws/src/idkman/setup.py
