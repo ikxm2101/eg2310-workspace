@@ -12,7 +12,7 @@ from sensor_msgs.msg import LaserScan
 import time
 import numpy as np
 
-from .servo_device import Servo_device
+from ...auto_nav.auto_nav.rpi_bu.servo_device import Servo_device
 #from .solenoidsw_device import SolenoidSwitch_device
 
 servo_pin1 = 12
