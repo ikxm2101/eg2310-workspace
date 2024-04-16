@@ -1,3 +1,0 @@
-[console_scripts]
-testbed = lidar_sole_servo_test.main:main
-

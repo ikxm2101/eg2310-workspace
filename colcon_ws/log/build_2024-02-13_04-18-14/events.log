@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000965] (-) JobUnselected: {'identifier': 'auto_nav'}
-[0.001278] (-) JobUnselected: {'identifier': 'lidar-sole-servo_test'}
-[0.002380] (-) EventReactorShutdown: {}

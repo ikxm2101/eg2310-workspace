@@ -1,0 +1,40 @@
+{
+  "name": "ROS 2 Development Container for EG2310",
+  "privileged": true,
+  "remoteUser": "ikxm2101",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "USERNAME": "ikxm2101"
+    }
+  },
+  "workspaceFolder": "/home/eg2310-workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/eg2310-workspace,type=bind",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes",
+        "twxs.cmake",
+        "donjayamanne.python-extension-pack",
+        "eamodio.gitlens",
+        "ms-iot.vscode-ros"
+      ]
+    }
+  },
+  "containerEnv": {
+    "DISPLAY": "unix:0",
+    "ROS_LOCALHOST_ONLY": "0",
+    "ROS_DOMAIN_ID": "36"
+  },
+  "runArgs": [
+    "--net=host",
+    "-e",
+    "DISPLAY=${env:DISPLAY}"
+  ],
+  "mounts": [
+    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
+    "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached"
+  ],
+  "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths /home/eg2310-workspace --ignore-src -y && sudo chown -R $(whoami) /home/eg2310-workspace"
+}
