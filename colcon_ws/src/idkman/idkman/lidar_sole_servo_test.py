@@ -20,8 +20,8 @@ servo1 = Servo_device(servo_pin1)
 
 servo_pin2 = 13
 servo2 = Servo_device(servo_pin2)
-servo1.set_angle(180)
-servo2.reset()
+servo1.set_angle(0)
+servo2.set_angle(180)
 #solenoidsw_pin = 21
 #solenoidsw = SolenoidSwitch_device(solenoidsw_pin)
 
@@ -51,14 +51,15 @@ class Scanner(Node):
 
     if measured_mindist <= self.mindist and not self.mindist_detected:
       self.mindist_detected = True
-      time.sleep(10)
-      servo1.set_angle(80)
-      servo2.set_angle(100)
-      time.sleep(10)
+      time.sleep(5)
+      servo1.set_angle(110)
+      servo2.set_angle(70)
+      time.sleep(3)
      # solenoidsw.on()
-      time.sleep(1)
-      servo1.set_angle(180)
-      servo2.reset()
+      for turntime in range(0,110):
+        servo1.set_angle(110-turntime)
+        servo2.set_angle(70+turntime)
+        time.sleep(0.01)
       servo1.close()
       servo2.close()
     if measured_mindist > self.mindist and self.mindist_detected:

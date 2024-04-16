@@ -1,0 +1,26 @@
+[2.055s] Invoking command in '/home/ubuntu/eg2310-workspace/colcon_ws/src/auto_nav': PYTHONPATH=/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_nav build --build-base /home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/build install --prefix /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav --record /home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/install.log --single-version-externally-managed
+[3.084s] running egg_info
+[3.086s] writing ../../build/auto_nav/auto_nav.egg-info/PKG-INFO
+[3.088s] writing dependency_links to ../../build/auto_nav/auto_nav.egg-info/dependency_links.txt
+[3.089s] writing entry points to ../../build/auto_nav/auto_nav.egg-info/entry_points.txt
+[3.090s] writing requirements to ../../build/auto_nav/auto_nav.egg-info/requires.txt
+[3.091s] writing top-level names to ../../build/auto_nav/auto_nav.egg-info/top_level.txt
+[3.303s] reading manifest file '../../build/auto_nav/auto_nav.egg-info/SOURCES.txt'
+[3.309s] writing manifest file '../../build/auto_nav/auto_nav.egg-info/SOURCES.txt'
+[3.310s] running build
+[3.310s] running build_py
+[3.326s] running install
+[3.331s] running install_lib
+[3.343s] running install_data
+[3.354s] running install_egg_info
+[3.360s] removing '/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[3.362s] Copying ../../build/auto_nav/auto_nav.egg-info to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages/auto_nav-0.0.0-py3.8.egg-info
+[3.369s] running install_scripts
+[3.459s] Installing r2auto_nav script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.460s] Installing r2mover script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.463s] Installing r2moverotate script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.465s] Installing r2occupancy script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.469s] Installing r2occupancy2 script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.475s] Installing r2scanner script to /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/auto_nav
+[3.484s] writing list of installed files to '/home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/install.log'
+[3.694s] Invoked command in '/home/ubuntu/eg2310-workspace/colcon_ws/src/auto_nav' returned '0': PYTHONPATH=/home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_nav build --build-base /home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/build install --prefix /home/ubuntu/eg2310-workspace/colcon_ws/install/auto_nav --record /home/ubuntu/eg2310-workspace/colcon_ws/build/auto_nav/install.log --single-version-externally-managed
