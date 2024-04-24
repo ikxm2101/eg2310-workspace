@@ -8,7 +8,13 @@
       "USERNAME": "ikxm2101"
     }
   },
-  "workspaceFolder": "/home/eg2310-workspace",
+  // workspaceFolder: this property specifies the default directory when the container is opened
+  "workspaceFolder": "/home/eg2310-workspace", 
+  /* workspaceMount: this property specifies how the workspace in your local machine should be mounted inside the container,
+  - the source property specifies the local directory, in this case, the workspace folder of the project on your local machine (wherever you open this container)
+  - the target property specifies the directory in the container, in this case, the default directory of the container
+  - the type=bind property specifies that this mount is using as a bind mount, meaning any changes made in the container will be reflected in the container as well
+  */
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/eg2310-workspace,type=bind",
   "customizations": {
     "vscode": {
@@ -24,7 +30,7 @@
   },
   "containerEnv": {
     "DISPLAY": "unix:0",
-    "ROS_LOCALHOST_ONLY": "0",
+    "ROS_LOCALHOST_ONLY": "0", // change this to 0 to communicate with turtlebot
     "ROS_DOMAIN_ID": "36"
   },
   "runArgs": [
